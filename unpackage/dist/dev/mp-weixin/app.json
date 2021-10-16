@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/center/index",
+    "pages/calculator/index",
+    "pages/weather/weather",
+    "pages/index/moretan",
+    "pages/index/morelist",
+    "pages/index/invitation",
+    "pages/webView/webView",
+    "pages/empty/choseUrl",
+    "pages/empty/empty",
+    "pages/tanDetail/tanDetail",
+    "pages/strategy/strategy",
+    "pages/bushu/bushu"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uView",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "需要获取用户地理位置，从而进行天气预报展示"
+    }
+  },
+  "usingComponents": {}
+}

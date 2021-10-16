@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "绿建碳宝",
+  "usingComponents": {
+    "u-popup": "/uview-ui/components/u-popup/u-popup"
+  }
+}

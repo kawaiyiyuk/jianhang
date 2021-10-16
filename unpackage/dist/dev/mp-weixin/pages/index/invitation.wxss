@@ -1,0 +1,138 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.invitation {
+  position: relative;
+  height: 100vh;
+  overflow-y: hidden;
+}
+.invitation_bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.invitation-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 10;
+  width: 720rpx;
+  height: 492rpx;
+  -webkit-border-radius: 32rpx;
+          border-radius: 32rpx;
+  background: #FFFFFF;
+  margin-top: -246rpx;
+  margin-left: -360rpx;
+}
+.invitation-content .invitation-content-top {
+  -webkit-border-top-right-radius: 32rpx;
+          border-top-right-radius: 32rpx;
+  -webkit-border-top-left-radius: 32rpx;
+          border-top-left-radius: 32rpx;
+  background-color: #FFFFFF;
+  -webkit-box-shadow: inset 0px -0.5px 0px rgba(0, 0, 0, 0.06);
+          box-shadow: inset 0px -0.5px 0px rgba(0, 0, 0, 0.06);
+  height: 100rpx;
+  line-height: 100rpx;
+  font-size: 32rpx;
+  border: 1px solid #f3f3f3;
+  text-indent: 40rpx;
+}
+.invitation-content .invitation-main .invitation-main-title {
+  font-size: 28rpx;
+  text-align: center;
+  margin-top: 80rpx;
+}
+.invitation-content .invitation-main .btn-group {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+  margin-top: 80rpx;
+}
+.invitation-content .invitation-main .btn-group .btn {
+  width: 236rpx;
+  height: 64rpx;
+  line-height: 64rpx;
+  text-align: center;
+  background-color: #4C9D71;
+  color: #FFFFFF;
+  -webkit-border-radius: 32rpx;
+          border-radius: 32rpx;
+}
+.pop-model {
+  width: 640rpx;
+  height: 608rpx;
+  -webkit-border-radius: 16rpx;
+          border-radius: 16rpx;
+  background-color: #FFFFFF;
+  overflow-y: hidden;
+}
+.pop-model .top {
+  text-align: center;
+  font-size: 34rpx;
+  color: #000000;
+  line-height: 2;
+  margin-top: 40rpx;
+}
+.pop-model .code {
+  width: 544rpx;
+  height: 306rpx;
+  line-height: 306rpx;
+  text-align: center;
+  background-color: #E5E5E5;
+  margin: 40rpx auto;
+  color: #000000;
+  font-size: 64rpx;
+}
+.pop-model .copy {
+  height: 110rpx;
+  line-height: 110rpx;
+  font-size: 34rpx;
+  color: #4C9D71;
+  text-align: center;
+  border-top: 2rpx solid #e5e5e5;
+}
+.pop-model .code_input {
+  padding: 0 48rpx;
+  margin-top: 140rpx;
+}
+.pop-model .code_input .input_value {
+  height: 60rpx;
+  border-bottom: 2rpx solid #e5e5e5;
+}
+.pop-model .code_input_btngroup {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+  position: absolute;
+  bottom: 0;
+  border-top: 2rpx solid #e5e5e5;
+  font-size: 34rpx;
+}
+.pop-model .code_input_btngroup .clean {
+  width: 49%;
+  text-align: center;
+  height: 110rpx;
+  line-height: 110rpx;
+  color: #000000;
+}
+.pop-model .code_input_btngroup .sure {
+  width: 49%;
+  height: 110rpx;
+  text-align: center;
+  line-height: 110rpx;
+  color: #576B95;
+}
+.pop-model .code_input_btngroup .disline {
+  width: 2rpx;
+  background-color: #e5e5e5;
+}
+

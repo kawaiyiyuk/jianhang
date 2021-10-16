@@ -1,0 +1,107 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "绿建碳宝"
+			}
+		},
+		{
+			"path": "pages/center/index",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		}, {
+			"path": "pages/calculator/index",
+			"style": {
+				"navigationBarTitleText": "碳计算器"
+			}
+		}
+        ,{
+            "path" : "pages/weather/weather",
+            "style" : {
+				"navigationBarTitleText": "天气"
+			}
+        },
+		{
+			"path": "pages/index/moretan",
+			"style": {
+				"navigationBarTitleText": "最新动态"
+			}
+		},
+		{
+			"path": "pages/index/morelist",
+			"style": {
+				"navigationBarTitleText": "排行榜"
+			}
+		},
+		{
+			"path": "pages/index/invitation",
+			"style": {
+				"navigationBarTitleText": "邀请好友"
+			}
+		},
+		{
+			"path": "pages/webView/webView",
+			"style": {
+				"navigationBarTitleText": "绿建"
+			}
+		},
+		{
+			"path": "pages/empty/choseUrl",
+			"style": {
+				"navigationBarTitleText": "绿建"
+			}
+		},
+		{
+			"path": "pages/empty/empty",
+			"style": {
+				"navigationBarTitleText": "绿建"
+			}
+		},
+		{
+			"path": "pages/tanDetail/tanDetail",
+			"style": {
+				"navigationBarTitleText": "积分明细"
+			}
+		},
+		{
+			"path": "pages/strategy/strategy",
+			"style": {
+				"navigationBarTitleText": "积分攻略"
+			}
+		},
+		{
+			"path": "pages/bushu/bushu",
+			"style": {
+				"navigationBarTitleText": "微信步数同步"
+			}
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uView",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+	// "tabBar": {
+	// 	"color": "#909399",
+	// 	"selectedColor": "#303133",
+	// 	"borderStyle": "black",
+	// 	"backgroundColor": "#ffffff",
+	// 	"list": [{
+	// 		"pagePath": "pages/index/index",
+	// 		"iconPath": "static/index.png",
+	// 		"selectedIconPath": "static/index-selected.png",
+	// 		"text": "首页"
+	// 	}, {
+	// 		"pagePath": "pages/center/index",
+	// 		"iconPath": "static/center.png",
+	// 		"selectedIconPath": "static/center-selected.png",
+	// 		"text": "我"
+	// 	}]
+	// }
+}

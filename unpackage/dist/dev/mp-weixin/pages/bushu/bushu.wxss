@@ -1,0 +1,67 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.bushu {
+  overflow: hidden;
+  height: 100vh;
+}
+.bushu .busu-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.bushu .desc_img {
+  width: 750rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  position: relative;
+  z-index: 8;
+  margin-top: 40rpx;
+}
+.bushu .content {
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  padding: 30vh 100rpx 0;
+}
+.bushu .content .btn {
+  width: 540rpx;
+  height: 64rpx;
+  line-height: 64rpx;
+  text-align: center;
+  background-color: #4C9D71;
+  -webkit-border-radius: 32rpx;
+          border-radius: 32rpx;
+  color: #FFFFFF;
+  margin: 0 auto;
+}
+.bushu .content .data_list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  color: #FFFFFF;
+  margin-top: 34rpx;
+}
+.bushu .content .data_list .data_list_item {
+  text-align: center;
+}
+.bushu .content .data_list .data_list_item .data_list_item_num {
+  font-size: 40rpx;
+}
+.bushu .content .data_list .data_list_item .data_list_item_text {
+  font-size: 24rpx;
+}
+

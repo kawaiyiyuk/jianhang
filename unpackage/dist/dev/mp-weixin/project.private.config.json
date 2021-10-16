@@ -1,0 +1,78 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/calculator/index",
+          "pathName": "pages/calculator/index",
+          "query": "__id__=1",
+          "scene": null
+        },
+        {
+          "name": "pages/weather/weather",
+          "pathName": "pages/weather/weather",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/index/morelist",
+          "pathName": "pages/index/morelist",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/index/invitation",
+          "pathName": "pages/index/invitation",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/webView/webView",
+          "pathName": "pages/webView/webView",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/empty/choseUrl",
+          "pathName": "pages/empty/choseUrl",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/empty/empty",
+          "pathName": "pages/empty/empty",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/tanDetail/tanDetail",
+          "pathName": "pages/tanDetail/tanDetail",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/strategy/strategy",
+          "pathName": "pages/strategy/strategy",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/bushu/bushu",
+          "pathName": "pages/bushu/bushu",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

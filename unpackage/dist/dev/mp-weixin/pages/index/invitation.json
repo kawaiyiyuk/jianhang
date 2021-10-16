@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "邀请好友",
+  "usingComponents": {
+    "u-popup": "/uview-ui/components/u-popup/u-popup",
+    "u-toast": "/uview-ui/components/u-toast/u-toast"
+  }
+}

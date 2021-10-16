@@ -1,0 +1,52 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.num_text.data-v-4fdfc8c6 {
+  color: #4C9D71;
+  margin: 0 10rpx;
+}
+.dynamic_list.data-v-4fdfc8c6 {
+  background-color: #FFFFFF;
+  padding: 0 48rpx;
+  -webkit-border-top-left-radius: 20rpx;
+          border-top-left-radius: 20rpx;
+  -webkit-border-top-right-radius: 20rpx;
+          border-top-right-radius: 20rpx;
+}
+.dynamic_list .dynamic_list_item.data-v-4fdfc8c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  height: 114rpx;
+  border-bottom: 2rpx solid #f8f8f8;
+}
+.dynamic_list .dynamic_list_item .dynamic_list_item_left.data-v-4fdfc8c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  width: 50%;
+}
+.dynamic_list .dynamic_list_item .dynamic_list_item_right.data-v-4fdfc8c6 {
+  width: 50%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+
